@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
+import pic02 from '../images/pixelify.png'
 import pic03 from '../images/pic03.jpg'
 
 class Main extends React.Component {
@@ -67,10 +67,7 @@ class Main extends React.Component {
             <img src={pic02} alt="" />
           </span>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+            <a href="https://suspicious-pixel-art.netlify.com" target="_blank">Toby's Project</a>
           </p>
           <p>
             Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
@@ -126,7 +123,7 @@ class Main extends React.Component {
             </div>
             <div className="field">
               <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="4"></textarea>
+              <textarea style={{ resize: "none"}} name="message" id="message" rows="4"></textarea>
             </div>
             <ul className="actions">
               <li>

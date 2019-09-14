@@ -1,16 +1,16 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import bomberman from '../images/bomberman.png'
 
 const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
         <div className="logo">
-            <span className="icon fa-diamond"></span>
+            <span className=""><img style={{height: 56, width: 56, marginTop: 13}} src={bomberman}/></span>
         </div>
         <div className="content">
             <div className="inner">
-                <h1>Dimension</h1>
-                <p>A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<br />
-                for free under the <a href="https://html5up.net/license">Creative Commons</a> license.</p>
+                <h1>Toby's Project</h1>
+                <p>A personal portfolio website</p>
             </div>
         </div>
         <nav>
